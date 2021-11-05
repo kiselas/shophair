@@ -6,9 +6,9 @@ import datetime
 
 
 class CrawlOkisliteliIUsiliteliKraskiSpider(CrawlSpider):
-    name = "crawl_okisliteli_i_usiliteli_kraski"
+    name = "crawl_geli"
     allowed_domains = ["www.shophair.ru"]
-    start_urls = ["https://www.shophair.ru/sredstva_dlya_okrashivania_volos/okisliteli_i_usiliteli_kraski/"]
+    start_urls = ["https://www.shophair.ru/ukhod_za_litsom/geli/"]
     domain = "www.shophair.ru"
 
     rules = (
